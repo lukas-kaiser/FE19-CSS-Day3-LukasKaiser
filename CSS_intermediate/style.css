@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .paper{
-    width: 500px;
+    width: 300px;
     height: auto;
     border: 1px solid black;
     margin: auto;
@@ -128,6 +128,149 @@
 .second-section .sugars{
     padding-left: 15px;
 }
+.third-section .vitamin-a{
+    display: flex;
+}
+.third-section .vitamin-a .left{
+    width: 70%;
+}
+.third-section .vitamin-a .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.third-section .vitamin-c{
+    display: flex;
+}
+.third-section .vitamin-c .left{
+    width: 70%;
+}
+.third-section .vitamin-c .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.third-section .calcium{
+    display: flex;
+}
+.third-section .calcium .left{
+    width: 70%;
+}
+.third-section .calcium .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.third-section .iron{
+    display: flex;
+}
+.third-section .iron .left{
+    width: 70%;
+}
+.third-section .iron .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.third-section .bottom-info{
+    display: flex;
+    justify-content: space-between;
+}
+.third-section .bottom-info .left{
+    display: flex;
+    padding-left: 38%;
+}
+.third-section .bottom-info .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    padding-right: 13%;
+    }
+.third-section .totalfat{
+    display: flex;
+    justify-content: space-between;
+}
+.third-section .totalfat .left{
+}
+.third-section .totalfat .middle{
+    padding-left: 18%;
+}
+.third-section .totalfat .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-right: 16%;
+}
+.third-section .saturatedfat{
+    display: flex;
+    justify-content: space-between;
+}
+.third-section .saturatedfat .left{
+    padding-left: 10px;
+}
+.third-section .saturatedfat .middle{
+    padding-left: 7%;
+}
+.third-section .saturatedfat .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-right: 16%;
+}
+.third-section .cholesterol{
+    display: flex;
+    justify-content: space-between;
+}
+.third-section .cholesterol .middle{
+    padding-left: 14%;
+}
+.third-section .cholesterol .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding-right: 11%;
+}
+.third-section .sodium{
+    display: flex;
+    justify-content: space-between;
+}
+.third-section .sodium .middle{
+    padding-left: 21%;
+}
+.third-section .sodium .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding-right: 7%;
+}
+.third-section .carbohydrate{
+    display: flex;
+    justify-content: space-between;
+}
+.third-section .carbohydrate .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding-right: 14%;
+}
+.third-section .dietaryfiber{
+    display: flex;
+    justify-content: space-between;
+}
+.third-section .dietaryfiber .left{
+    padding-left: 10px;
+}
+.third-section .dietaryfiber .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding-right: 16%;
+}
+.third-section .last-line{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
 .black-stripe{
     background-color: black;
     height: 10px;
@@ -141,5 +284,9 @@
     height: 5px;
 }
 .small-text{
-    font-size: 85%;
+    font-size: 80%;
+}
+.dot{
+    font-size: 5%;
+    padding-top: 1.5%;
 }
