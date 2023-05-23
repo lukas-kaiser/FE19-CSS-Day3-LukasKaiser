@@ -20,16 +20,125 @@
     display: flex;
 }
 .second-section .middle-info .left{
-    width: 60%;
+    width: 70%;
 }
 .second-section .middle-info .right{
-    width: 40%;
+    width: 30%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.second-section .calories{
+    display: flex;
+}
+.second-section .calories .left{
+    width: 70%;;
+}
+.second-section .calories .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.second-section .caloriesfromfat{
+    display: flex;
+}
+.second-section .caloriesfromfat .left{
+    width: 70%;
+    padding-left: 15px;
+}
+.second-section .caloriesfromfat .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.dailyvalue{
+    display: flex;
+    justify-content: flex-end;
+}
+.second-section .totalfat{
+    display: flex;
+}
+.second-section .totalfat .left{
+    width: 70%;
+}
+.second-section .totalfat .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.second-section .saturatedfat{
+    display: flex;
+}
+.second-section .saturatedfat .left{
+    width: 70%;
+    padding-left: 15px;
+}
+.second-section .saturatedfat .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.second-section .transfat{
+    padding-left: 15px;
+}
+.second-section .cholesterol{
+    display: flex;
+}
+.second-section .cholesterol .left{
+    width: 70%;
+}
+.second-section .cholesterol .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.second-section .sodium{
+    display: flex;
+}
+.second-section .sodium .left{
+    width: 70%;
+}
+.second-section .sodium .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.second-section .carbohydrate{
+    display: flex;
+}
+.second-section .carbohydrate .left{
+    width: 70%;
+}
+.second-section .carbohydrate .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.second-section .dietaryfiber{
+    display: flex;
+}
+.second-section .dietaryfiber .left{
+    width: 70%;
+    padding-left: 15px;
+}
+.second-section .dietaryfiber .right{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.second-section .sugars{
+    padding-left: 15px;
 }
 .black-stripe{
     background-color: black;
     height: 10px;
+}
+.black-stripe-small{
+    background-color: black;
+    height: 2px;
+}
+.black-stripe-medium{
+    background-color: black;
+    height: 5px;
 }
 .small-text{
     font-size: 85%;
