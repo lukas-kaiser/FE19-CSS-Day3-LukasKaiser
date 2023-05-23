@@ -175,6 +175,7 @@
 .third-section .bottom-info{
     display: flex;
     justify-content: space-between;
+    padding-top: 2%;
 }
 .third-section .bottom-info .left{
     display: flex;
